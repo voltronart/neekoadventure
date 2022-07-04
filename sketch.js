@@ -150,6 +150,7 @@ function draw(){
   corda3.show();
   if(melanca!=null&&melanca.position.y>=650){
     neeko.changeAnimation('sad')
+    melanca = null
     sadsound.play();  
   
   }
